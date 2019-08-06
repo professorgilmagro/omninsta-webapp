@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/professorgilmagro/omninsta-web.svg?style=shield)](https://circleci.com/gh/professorgilmagro/omninsta-web)
+[![CircleCI](https://circleci.com/gh/professorgilmagro/omninsta-webapp.svg?style=shield)](https://circleci.com/gh/professorgilmagro/omninsta-webapp)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
