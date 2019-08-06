@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/professorgilmagro/omninsta-web.svg?style=shield)](https://circleci.com/gh/professorgilmagro/omninsta-web)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
