@@ -1,5 +1,7 @@
 [![CircleCI](https://circleci.com/gh/professorgilmagro/omninsta-webapp.svg?style=shield)](https://circleci.com/gh/professorgilmagro/omninsta-webapp)
 
+This project was developed in ReactJS for knowledge and study purposes, which is why Instagram was chosen for this purpose.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -68,3 +70,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Heroku
+
+This project is available on Heroku:
+
+-   WEB: https://omninsta-web.herokuapp.com/
+-   [API: https://omninsta-api.herokuapp.com/](https://github.com/professorgilmagro/omninsta-api)
