@@ -2,15 +2,19 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const config = {
-	host: process.env.API_HOST || 'http://10.86.52.104',
-	port: process.env.API_PORT || 3333,
+	host: process.env.REACT_APP_API_HOST || 'http://localhost',
+	port: process.env.REACT_APP_API_PORT,
 	getURL(...pathSegments) {
 		let path = '';
 		if (pathSegments.length > 0) {
 			path = '/' + pathSegments.join('/', path);
 		}
 
-		return `${this.host}:${this.port}${path}`;
+		if (this.port !== undefined) {
+			return `${this.host}:${this.port}${path}`;
+		}
+
+		return `${this.host}${path}`;
 	}
 };
 
